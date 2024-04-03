@@ -1,0 +1,54 @@
+#todoList {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    padding: 2rem;    
+}
+
+.basket, .basketAll {
+    margin-right: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.basket {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.basket, p {   
+    text-align: center;
+}
+.headerText {
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+}
+.headerText, .itemContainer {
+    height: 50px;
+}
+
+.headerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #808080;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.itemContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.itemContainer:hover {
+    background-color: #80818148;
+}
